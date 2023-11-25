@@ -3,4 +3,4 @@
 #Author
 - Jobet P. Casquejo
 - November 25, 2023
-- Card Component
+- Button Component

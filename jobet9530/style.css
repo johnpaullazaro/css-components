@@ -1,0 +1,62 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwind/utilities';
+
+.push-button-3d {
+  box-shadow: 0 4px #c1a23c;
+  color: #5e4800;
+  background-color: #ffd95e;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all .2s ease;
+  font-weight: 900;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.push-button-3d:active{
+  box-shadow: 0 1px #c1a23c;
+  transform: translateY(3px);
+}
+
+.custom-slds-button {
+  background-color: #3490dc;
+  color: white;
+  border: 1px solid #297fb8;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.2), inset 0 0 0 50px #3081bb;
+  z-index: 1;
+}
+
+.custom-slds-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 16px 32px rgba(0, 0, 0, 0.3), inset 0 0 0 50px #3081bb;
+}
+
+.custom-slds-button:active {
+  transform: translateY(2px);
+  background-color: #2779bd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: 1px solid #145997;
+}
+
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

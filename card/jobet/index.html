@@ -6,70 +6,44 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/@salesforce-ux/design-system/2.14.5/styles/salesforce-lightning-design-system.min.css">
 </head>
 
 <body>
-  <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
-  <div class="container">
-    <div class="slds-card card">
-      <div class="face face1">
-        <div class="content">
-          <img src="Salesforce-Logo.png" alt="Salesforce">
-        </div>
+  <div class="card slds-card">
+    <div class="card__info">
+      <div class="card__logo">Grandmaster Card</div>
+      <div class="card__chip">
+        <svg class="card__chip-lines" role="img" width="20px" height="20px" viewBox="0 0 100 100" aria-label="Chip">
+          <g opacity="0.8">
+            <polyline points="0,50 35,50" fill="none" stroke="#000" stroke-width="2"/>
+            <polyline points="0,20 20,20 35,35" fill="none" stroke="#000" stroke-width="2"/>
+            <polyline points="50,0 50,35" fill="none" stroke="#000" stroke-width="2"/>
+            <polyline points="65,35 80,20 100,20" fill="none" stroke="#000" stroke-width="2"/>
+            <polyline points="100,50 65,50" fill="none" stroke="#000" stroke-width="2"/>
+            <polyline points="35,35 65,35 65,65 35,65 35,35" fill="none" stroke="#000" stroke-width="2"/>
+              <polyline points="0,80 20,80 35,65" fill="none" stroke="#000" stroke-width="2"/>
+              <polyline points="50,100 50,65" fill="none" stroke="#000" stroke-width="2"/>
+              <polyline points="65,65 80,80 100,80" fill="none" stroke="#000" stroke-width="2"/>
+          </g>
+        </svg>
+        <div class="card__chip-texture"></div>
       </div>
-      <div class="face face2">
-        <div class="content">
-          <p>Salesforce, Inc. is an American cloud-based software company headquartered in San Francisco, California. It provides customer relationship management software and applications focused on sales, customer service, marketing automation, e-commerce, analytics, and application development.</p>
-          <a href="#" type="button">Read More</a>
-        </div>
+      <div class="card__type">Credit Card</div>
+      <div class="card__number">
+        <span class="card__digit-group">0000</span>
+        <span class="card__digit-group">0021</span>
+        <span class="card__digit-group">4748</span>
+        <span class="card__digit-group">3647</span>
       </div>
-    </div>
-
-    <div class="slds-card card">
-      <div class="face face1">
-        <div class="content">
-          <img src="Java.png" alt="Java">
-        </div>
-      </div>
-      <div class="face face2">
-        <div class="content">
-          <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
-          <a href="#" type="button">Read More</a>>
-        </div>
-      </div>
-    </div> 
-
-    <div class="slds-card card">
-      <div class="face face1">
-        <div class="content">
-          <img class="flutter-img" src="pngtree-flutter-logo-icon-png-image_8504857.png" alt="flutter">
-        </div>
-      </div>
-      <div class="face face2">
-        <div class="content">
-          <p>Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications from a single codebase for any web browser, Fuchsia, Android, iOS, Linux, macOS, and Windows. First described in 2015, Flutter was released in May 2017.</p>
-          <a href="#" type="button">Read More</a>
-        </div>
+      <div class="card__valid-thru" aria-label="Valid thru">Valid<br>thru</div>
+      <div class="car__exp-date"><time datetime="2030-11">01/30</time></div>
+      <div class="card__name" aria-label="Dee Stroyer">Jobet Casquejo</div>
+      <div class="card__vendor" role="img" aria-labelledby="card-vendor">
+        <span id="card-vendor" class="card__vendor-sr">Mastercard</span>
       </div>
     </div>
-
-    <div class="slds-card card">
-      <div class="face face1">
-        <div class="content">
-          <img src="png-transparent-firebase-cloud-messaging-computer-icons-google-cloud-messaging-android-angle-triangle-computer-programming.png" alt="firebase">
-        </div>
-      </div>
-
-      <div class="face face2">
-        <div class="content">
-          <p>Firebase, Inc. is a set of backend cloud computing services and application development platforms provided by Google. It hosts databases, services, authentication, and integration for a variety of applications, including Android, iOS, JavaScript, Node.js, Java, Unity, PHP, and C++.</p>
-          <a href="#" type="button">Read More</a>
-        </div>
-      </div>
-    </div>
-
+    <div class="card__texture"></div>
   </div>
 </body>
 

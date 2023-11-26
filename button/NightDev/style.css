@@ -1,0 +1,131 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+input[type="button"] {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* BTN 1 */
+input[type="button"]:nth-child(1) {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+input[type="button"]:nth-child(1):hover {
+  background-color: #fff;
+}
+input[type="button"]:nth-child(1):active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+@media (min-width: 768px) {
+  input[type="button"]:nth-child(1) {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+/* BTN 1 End */
+
+input[type="button"]:nth-child(2) {
+  outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background-color: #90c0ff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all 0.14s ease-out;
+  white-space: nowrap;
+}
+
+input[type="button"]:nth-child(2):hover {
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px, -4px);
+}
+input[type="button"]:nth-child(2):focus-visible {
+  outline-offset: 1px;
+}
+
+input[type="button"]:nth-child(3) {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+input[type="button"]:nth-child(4) {
+  background-color: #f39c12;
+  color: #fff;
+}
+input[type="button"]:nth-child(5) {
+  background-color: #3498db;
+  color: #fff;
+}
+
+input[type="button"]:nth-child(6) {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+input[type="button"]:nth-child(7) {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+input[type="button"]:nth-child(8) {
+  background-color: #f39c12;
+  color: #fff;
+}
+input[type="button"]:nth-child(9) {
+  background-color: #3498db;
+  color: #fff;
+}
+
+input[type="button"]:nth-child(10) {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+input[type="button"]:nth-child(11) {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+input[type="button"]:nth-child(12) {
+  background-color: #f39c12;
+  color: #fff;
+}

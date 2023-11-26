@@ -1,4 +1,8 @@
 # css-components
+Is an open source CSS component repository. Where you can see bunch of css stuffs for your web application.
+This repository includes many styles for buttons, cards, layouts, typography styles and many more.
+
+
 
 # how to contribute?
 1. Clone Repo

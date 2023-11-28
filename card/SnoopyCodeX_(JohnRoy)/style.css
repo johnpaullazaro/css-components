@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+.container {
+    display: flex;
+}
+
+.movie-card {
+    height: 500px;
+    width: 750px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 6px;
+    background-clip: border-box;
+    overflow: hidden;
+}
+
+.movie-card img {
+    height: 500px;
+    width: 750px;
+    transition: .5s;
+}
+
+.movie-card .movie-intro {
+    width: 750px;
+    height: 70px;
+    padding: 6px;
+    bottom: 198px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27, 27, 27, .5);
+    backdrop-filter: blur(6px);
+    color: white;
+    transition: .5s;
+}
+
+.movie-card .movie-intro h1 {
+    margin: 10px;
+    font-size: 40px;
+}
+
+.movie-card .movie-intro p {
+    margin: 20px;
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.movie-card:hover {
+    cursor: pointer;
+}
+
+.movie-card:hover .movie-intro {
+    height: auto;
+    bottom: 198px;
+    background: rgba(0,0,0,.5);
+    backdrop-filter: blur(6px);
+}
+
+.movie-card:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.movie-card:hover img {
+    transform: scale(1.1) rotate(-3deg);
+}
